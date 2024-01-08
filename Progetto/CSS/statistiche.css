@@ -1,0 +1,83 @@
+body{
+    overflow-y: scroll;
+}
+details > .elenco {
+    background-color: #f7f7f7af;
+    padding: 1%;
+    padding-left: 3%;
+    margin: 0.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    font-size: larger;
+    font-weight:bold;
+    color: rgba(0, 0, 0, 0.836);
+    margin-top: 1px solid grey;
+    overflow:auto;
+    max-height: 300px;
+}
+
+details[open] .elenco{
+    animation-name: example;
+    animation-duration: 1s;
+}
+@keyframes example {
+    0%   {height:0px; margin-top: 0px; overflow: hidden;}
+    50% {height:70px; margin-top: 1px; overflow: hidden;}
+    100% {height:initial; overflow: initial;}
+}
+.elenco tr {
+    border-top: 2px solid rgba(128, 128, 128, 0.253);
+}
+.tendina {
+    position: static;
+    visibility: hidden;
+    opacity: 0;
+}
+.tendina:target {
+    visibility: visible;
+    opacity: 1;
+}
+.registrazione {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.registrazione td {
+    width: auto;
+}
+.DIVbox{
+    padding-bottom: 0px;
+}
+@media only screen and (max-width: 800px) {
+    .registrazione td {
+    width: 70%;
+    display:block;float:left;
+    }
+    .registrazione td #tema{
+        width: 200px;
+    }
+    .registrazione td .BTNreg{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 801px) {
+    .registrazione td {
+    width: 28%;
+    }
+}
+.tableTITLE{
+    font-size:large;
+    font-weight: bolder;
+    margin-left: 0%;
+    width: 100%;
+}
+.tableTITLE td {
+    width: 20%;
+}
+h3{
+    text-align:left; 
+    margin-left: 3%; 
+    margin-bottom:0;
+    color: rgba(0, 0, 0, 0.690);
+    font-size:larger;
+}

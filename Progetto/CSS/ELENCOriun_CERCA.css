@@ -1,0 +1,46 @@
+.tendina {
+    position: static;
+    visibility: hidden;
+    opacity: 0;
+}
+.tendina:target {
+    visibility: visible;
+    opacity: 1;
+}
+.registrazione {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.registrazione td {
+    width: auto;
+}
+.DIVbox{
+    padding-bottom: 0px;
+}
+@media only screen and (max-width: 800px) {
+    .registrazione td {
+    width: 49%;
+    display:block;float:left;
+    }
+}
+@media only screen and (min-width: 801px) {
+    .registrazione td {
+    width: 28%;
+    }
+}
+.tableTITLE{
+    font-size:large;
+    font-weight: bolder;
+    margin-left: 0%;
+    width: 100%;
+}
+.tableTITLE td {
+    width: 20%;
+}
+h3{
+    text-align:left; 
+    margin-left: 3%; 
+    margin-bottom:0;
+    color: rgba(0, 0, 0, 0.690);
+    font-size:larger;
+}

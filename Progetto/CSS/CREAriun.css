@@ -1,0 +1,211 @@
+body{
+    overflow-y: scroll;
+}
+details > .elenco {
+    background-color: #f7f7f7af;
+    padding: 1%;
+    padding-left: 3%;
+    margin: 0.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    font-size: larger;
+    font-weight:bold;
+    color: rgba(0, 0, 0, 0.836);
+    margin-top: 1px solid grey;
+    overflow:auto;
+    max-height: 300px;
+}
+
+details[open] .elenco{
+    animation-name: example;
+    animation-duration: 1s;
+}
+@keyframes example {
+    0%   {height:0px; margin-top: 0px; overflow: hidden;}
+    50% {height:70px; margin-top: 1px; overflow: hidden;}
+    100% {height:initial; overflow: initial;}
+}
+.elenco tr {
+    border-top: 2px solid rgba(128, 128, 128, 0.253);
+}
+
+details > .elencoRiunioni {
+    background-color: #eeeeee8a;
+    width: 80%;
+    margin-left: 0.5%;
+}
+
+.elenco tr:first-child {
+    border-top: none;
+}
+details td {
+    padding-top:.2%;
+    padding-bottom:2.7%;
+    width:15%;
+    font-size:larger;
+    font-weight: bolder;
+}
+details > summary {
+    height: 30px;
+    text-align:center;
+    padding: 4px;
+    width: 40%;
+    margin-left: 4%;
+    margin-top: 1%;
+    background-color: #feffff98;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px #bbbbbb;
+    cursor: pointer;
+    font-size:x-large;
+    font-weight:normal;
+    list-style-type:none;
+    outline: 2px solid rgba(0, 0, 0, 0.089);
+}
+details[open] summary{
+    background-color: #b6b6b6a8;
+}
+  
+.BTNutenti {
+    width: 155px;
+    font-size:large;
+    background-color: #feffffda;
+    margin-left: 9.5%;
+}
+details .BTNreg{
+    font-size: medium;
+    width: 20%;
+    padding: 1.5%;
+    margin-top: .4%;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.555);
+}
+
+details > summary:hover {
+    background-color: #cacaca;
+}
+
+.DIVbox {
+    padding-bottom: 2%;
+    margin: 2.5%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    width: 70%;
+}
+.NEWpage{
+    animation-name: newpage;
+    animation-duration: 1s;
+}
+.NEWpageTITLE{
+    animation-name: newpageTITLE;
+    animation-duration: 1s;
+}
+
+@keyframes newpage {
+    0%   {margin-left: -100px; overflow: hidden;}
+    100% {margin-left: 2.5%; overflow: hidden;}
+}
+@keyframes newpageTITLE {
+    0%   {margin-left: -100px; overflow: hidden;}
+    100% {margin-left: 10%; overflow: hidden;}
+}
+
+
+
+
+.MAINtitle {
+    margin: 5%; 
+    padding-bottom: 2%;
+    padding-top: 0;
+    width: 33%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    margin-right: 2%;
+}
+
+.BTNreg{
+    width: 40%;
+    font-size:larger;
+    background-color: #feffffda;
+    height: fit-content;
+    padding: 4px;
+    margin-top: 6%;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 1px 3px 3px #bbbbbb;
+    cursor: pointer;
+    outline: 2px solid rgba(0, 0, 0, 0.089);
+}
+.BTNreg:disabled{
+    background-color: #b9bbbbda;
+    cursor: default;
+} 
+.BTNreg:enabled{
+    cursor: pointer;
+}
+
+.BTNreg:hover {
+    background-color: #cacaca;
+}
+
+.registrazione {
+    text-align: left;
+    font-size:larger;
+    font-weight: bold;
+}
+.registrazione td{
+    width:50%;
+    padding-bottom: 2%;
+}
+.registrazione tr{
+    width:99%;
+}
+.registrazione input, .registrazione select{
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #feffffda;
+    box-shadow: 1px 3px 3px #bbbbbb;
+    outline: 2px solid rgba(0, 0, 0, 0.089);
+    font-size:medium;
+}
+
+.registrazione .BTNreg{
+    width: 30%;
+    height:fit-content;
+    font-size: large;
+    padding:1%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.UsersTD{
+    padding: 1px;
+}
+.UsersTD input{
+    display: block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.UsersDIPinput{
+    margin: 0px;
+    float:left;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 820px) {
+    .DIVbox{
+        width:93.5%;
+    }
+    .MAINtitle {
+        width: 60%;
+        min-width: 280px;
+        margin-left: 8%;
+        margin-bottom: 0%;
+    }
+}

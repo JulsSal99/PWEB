@@ -1,0 +1,84 @@
+<h1>Cos'è MeetupPlanner?</h1>
+<p>Meetup Planner è un sito nato con lo scopo di permettere la gestione/creazione di riunioni all'interno di un'azienda offrendo un'esperienza utente il più semplice possibile sia lato Amministratore (Direttore/Utente autorizzato) sia lato utente/impiegato (non autorizzato).<p>
+<br><br>
+
+<h1>FAQ</h1>
+<h2>Ho accettato una riunione, ma non mi è più possibile partecipare. Cosa faccio?</h2>
+<p>Fino all'ultimo minuto è possibile modificare lo stato di una riunione. Nel caso di una riunione già accettata/rifiutata, è presente un tasto "<b>cancella</b>" per annullare la scelta.</p>
+<h2>Non vedo gli inviti nella scheda "inviti" della home, cosa faccio?</h2>
+<p>Tutti gli inviti, indipendentemente dalla data/ora e dall'accettazione/rifiuto sono visibili nella scheda <b>"riunioni" --> "inviti"</b>. Nel caso in cui non sia ancora presente, è necessario richiedere al direttore di controllare l'elenco inviti e che non ci sia stato errore (punto seguente).</p>
+<h2>Ho creato una riunione, ma è comparso un messaggio di errore / si è chiuso il browser nella scelta degli invitati, cosa posso fare?</h2>
+<p>Nella sezione <b>"Riunioni" --> "Elenco Riunioni" --> "Nuove Riunioni"</b>, sulla destra dell'evento è possibile cliccare sul tasto <b>"Invitati"</b> che porterà a una pagina dove in alto a destra sarà possibile ricreare gli inviti a una riunione. Al termine avverrà un azzeramento.</p>
+<h2>Devo registrare un nuovo utente, come posso fare?</h2>
+<p>La registrazione degli utenti è un processo esclusivo ai soli Direttori/Utenti autorizzati. <br>Per registrare un nuovo utente, vai sulla sezione <b>Dipartimenti</b> e clicca sul tasto a destra <b>"Registra!"</b>.</p>
+<h2>Vorrei modificare la foto di profilo, è possibile?</h2>
+<p>Nella sezione profilo, <b>cliccando sulla propria immagine</b>, comparirà un popup che permetterà di selezionare un'immagine e di caricarla sul server. Al termine dell'operazione sarà visibile la nuova immagine.</p>
+<h2>Ho un problema diverso, cosa posso fare?</h2>
+<p>Nel caso di problemi con il sito/server, puoi contatarci inviando una mail a "meetupplanner2@gmail.com" con oggetto "Assistenza MeetupPlanner" e provvederemo a risponderti nel più breve tempo possibile.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<p></p>
+        <h1>Informazioni carine sul sito:</h1>
+        <p>Il sito nasce a scopo didattico</p>
+        <p></p><h2>Ecco la consegna</h2>
+        <!--target apre il link in una nuova finestra-->
+        <a href="https://mmesitipw.ariel.ctu.unimi.it/v5/frm3/ThreadList.aspx?fc=QNmoPJzL99SShpdvPOXpdDd63f9Dw0C%2bYEtYEHtmMVw%2fuhGUsXKNrhBjeuHKYY1Z&roomid=252269" target="_blank">Link Ariel</a>
+        <h2>3.2 Realizzazione dell’applicativo Web</h2>
+        <p>La progettazione della base di dati deve coprire tutti gli aspetti e le funzionalità analizzate in precedenza. L’applicativo deve essere il pi`u completo possibile e coprire almeno le funzionalit`a e le operazioni di seguito riportate: </p><p>
+        1. Utente:</p><p>
+            (a) Registrare un nuovo utente.</p><p>
+            (b) Visualizzare profilo utente.</p><p>
+            (c) Modificare profilo utente.</p><p>
+            (d) Accettare o rifiutare (con motivazione) invito a riunione</p><p>
+            (e) Rimuoversi da una una runione a cui si `e gi`a data dsponibilità</p><p>
+            (f) Autorizzare un utente a pianificare riunioni</p><p>
+            (g) Visualizzare le riunioni che devono ancora svolgersi e a cui si `e stati invitati in ordine di data</p><p>
+            (h) Visualizzare, in un’interfaccia separata da quella del punto precedente, le riunioni che si sono gi`a tenute</p><p>
+            (i) Visualizzare, per ogni utente autorizzato o direttore, le riunioni pianificate per un dato giorno, settimana, o mese.</p><p>
+        2. Riunioni:</p><p>
+            (a) Pianificare una riunione</p><p>
+            (b) Modificare una riunione</p><p>
+            (c) Cancellare una riunione</p><p>
+            (d) Invitare partecipanti alla riunione sia singolarmente, sia per categoria, sia per ruolo</p><p>
+        3. Operazioni:</p><p>
+            (a) Contare il numero di partecipanti per ogni riunione e verificare che non venga superato il numero di posti dell’aula</p><p>
+            (b) Contare il numero di riunioni pianificate per categoria</p><p>
+            (c) Quando viene definita una riunione, verificare che l’aula non sia gi`a occupata</p><p>
+            (d) Quando un utente accetta un invito, non devono esserci sovrapposizioni con altre riunioni affinch´e l’operazione vada a buon fine</p><p>
+            (e) Trovare le riunioni a cui hanno partecipato un numero di impiegati che `e superiore al numero di impiegati che afferiscono al dipartimento dell’impiegato/dirigente che ha organizzato la riunione.</p><p>
+        </p>
+
+        <h3>Seconda consegna: Progettazione dell’applicativo</h3>
+        <p>• Definire lo stile dell’applicazione andando a scegliere un foglio CSS che si possa applicare a tutte le pagine.</p><p>• Partendo dal modello relazionale sviluppato in precedenza e tenendo in considerazione la tipologia di funzionalit`a a cui l’applicativo Web deve rispondere, sviluppare la struttura dell’applicativo Web e delle principali pagine. Per la seconda consegna le pagine possono essere statiche e illustrare attraverso esempi quello che l’applicativo permetter`a di fare una volta ultimata l’implementazione. Oltre al pdf della documentazione, andrà consegnato anche il codice HTML realizzato e i fogli di stile.</p><p>• Sviluppare un albero delle funzionalit`a offerte dall’applicativo. L’albero mette in luce quali sono le funzionalit`a di alto livello che si vogliono sviluppare e per ognuna di esse le sotto-funzionalit`a che verranno messe a disposizione nell’applicativo. </p><p>• Sviluppare le principali porzioni di codice necessarie a realizzare le funzionalit`a richieste dall’interfaccia</p>
+        <p>(f) La progettazione dell’applicativo Web e l’albero delle funzionalità.</p><p>(g) Gli script PHP che implementano le principali funzionalità che vengono richieste dall’applicativo Web. </p><p>(h) Il foglio di stile scelto        </p><p>(i) Eventuale codice HTML realizzato.</p>
+        <h2>Terza consegna: Realizzazione dell’applicativo Web</h2>
+        <p>La progettazione della base di dati e la progettazione dell’applicativo deve coprire tutti gli aspetti e le funzionalit`a analizzate in precedenza. L’applicativo sviluppato deve essere il pi`u completo possibile e coprire la maggioranza delle operazioni descritte in precedenza. L’applicativo deve far uso di sessioni per garantire l’accesso alle pagine ai soli utenti autorizzati. Lo stile di programmazione deve ispirarsi al paradigma Model-View-Control che viene presentato durante il corso. Le buone pratiche di usabilit`a devono essere seguite per garantire che il prodotto sviluppato sia facilmente utilizzabile dagli utenti. </p>
+        <h2>Documentazione da consegnare</h2>
+        <p>Nel seguito viene descritta la documentazione da consegnare per la valutazione del progetto. Viene distinto quello che occorre preparare per la prima, la seconda e la terza consegna. Nella prima e seconda consegna vanno presentati solo i punti richiesti. Nella consegna finale va riconsegnato tutto e tutti gli errori evidenziati dai docenti devono essere propriamente indirizzati. Per la valutazione del progetto andr`a consegnato uno zip contenente i seguenti file: </p><p>
+            1. Un unico file pdf contenente la documentazione tecnica e conforme al template fornito. Il file deve contenere:</p><p>
+                (a) (Prima consegna) Uno schema concettuale (E-R), uno schema concettuale ristrutturato.</p><p>
+                (b) (Prima consegna) Definizione delle assunzioni fatte su aspetti non specificati del dominio</p><p>
+                (c) (Prima consegna) Descrizione dei vincoli di integrit`a non direttamente desumibili dallo schema E-R con la loro relativa implementazione in SQL. Per quei vincoli che non si possono implementare in MySQL, indicare la soluzione alternativa adottata.</p><p>
+                (d) (Prima consegna) Il modello relazionale risultante dalla fase di progettazione</p><p>
+                (e) (Prima consegna) Le cinque interrogazioni SQL sviluppate pi`u significative.</p><p>
+                (f) (Seconda consegna) La progettazione dell’applicativo Web e l’albero delle funzionalità.</p><p>
+                (g) (Seconda consegna) Gli script PHP che implementano le principali funzionalità che vengono richieste dall’applicativo Web.</p><p>
+                (h) (Seconda consegna) Il foglio di stile scelto</p><p>
+                (i) (Seconda consegna) Eventuale codice HTML realizzato.</p><p>
+                (j) (Terza consegna) Indicazione delle tecnologie utilizzate per la realizzazione dell’applicativo. Per ognuna delle tecnologie viste a lezione bisogna dichiarare dove sono state utilizzate. Nello specifico si vuole sapere dove e perch´e `e stato usato Javascript, sessioni, cookies, AJAX o altre tecnologie.</p><p>
+                (k) (Terza consegna) Qualunque altra informazione si ritenga di interesse per la comprensione delle scelte progettuali ed implementative effettuate. E di fondamentale importanza riportare le assunzioni iniziali che si sono fatte per la realizzazione dello schema concettuale dell’applicativo Web.</p><p>
+                (l) (Terza consegna) L’applicativo Web sviluppato.</p><p>
+                    2. Gli script per la creazione ed il popolamento della base di dati.</p><p>
+                    3. L’applicativo Web sviluppato, organizzato in un’unica cartella contenente il file index.php e le seguenti sottocartelle:</p><p>
+                (a) Frontend: raggruppa tutti i file contenenti codice per la visualizzazione delle pagine, prevalentemente HTML</p><p>
+                (b) Backend: contiene il codice necessario ad interfacciarsi con il database ed eventuali query</p><p>
+                (c) Common: serve a mantenere il file di configurazione del database ed eventuali funzioni utilizzate in tutta l’applicazione Web</p><p>
+                (d) JS: contiene gli script javascript</p><p>
+                (e) CSS: contiene tutti i fogli di stile usati</p><p>
+                (f) Immagini: se previste dal progetto</p><p>
+        Per quanto riguarda la documentazione tecnica si richiede di utilizzare il template messo a disposizione insieme al testo dell’esercitazione. Nella prima pagina della documentazione devono essere indicate le seguenti informazioni: titolo del progetto svolto e della parte specifica assegnata; data di consegna; matricola, nome, cognome e indirizzo email dei componenti del gruppo; indicazione di un referente del gruppo; docente di riferimento.</p>

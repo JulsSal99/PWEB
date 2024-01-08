@@ -1,0 +1,70 @@
+table.login {
+	text-align: left;
+	color: rgba(7, 7, 7, 0.486);
+	padding: 2%;  
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-collapse: separate;
+	border: solid rgba(0, 0, 0, 0.411) 1px;
+	border-radius: 6px;
+	border: 1;
+	background: rgba(255, 255, 255, 0.924);
+	outline: 5px solid rgba(253, 253, 253, 0.432);
+	margin-top: 3%;
+}
+
+.inBOXlogin { 
+	min-width:60px
+}
+
+@media only screen and (min-width: 800px) {
+    #td_text {
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+	table.login {
+		font-size: larger;
+	}
+	table.login tr:first-child{
+		font-size:medium;
+	}
+	table.login td input {
+		height: 30px;
+	}
+	table.login td .clkBOX{
+		margin-left: 5%;
+		height: 35px;
+	}
+	#td_text{
+		min-width:90px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    table.login {
+		margin-top: 7%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		font-size: x-large;
+	}
+	table.login tr:first-child{
+		font-size: large;
+	}
+	table.login td {
+		display: block;
+    	clear: both;
+	}
+	table.login td input {
+		width: 55%;
+		height: 35px;
+	}
+	table.login td .clkBOX{
+		margin-left: 5%;
+		width: 40%;
+		height: 40px;
+		font-size: large;
+	}
+}

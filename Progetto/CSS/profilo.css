@@ -1,0 +1,188 @@
+/*------------------------------------------*/
+/*--------------- Profilo.php --------------*/
+/*------------------------------------------*/
+
+.DIVbox {
+	border-collapse: separate;
+	border-style: groove;
+	margin: 4%;
+}
+
+table.title {
+	font-size: 17pt;
+	font-family: Arial, sans-serif;
+	border-collapse: collapse;
+	margin-left: 3.5%;
+	margin-right: 3.5%;
+	padding-top: 1%;
+	border-spacing: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width:fit-content;
+}
+table.title td:first-child{
+	white-space:pre;
+}
+
+table.title td:last-child{
+	text-align: end; 
+	background: rgba(0, 0, 0, 0);
+	width:100%;
+}
+p {
+	font-size:larger;
+	font-weight: bolder;
+}
+strong{
+	font-size:larger;
+}
+
+
+.prof_BOTT {
+	font-size: 12pt;
+	color: rgb(0, 119, 255);
+	background: rgba(0, 0, 0, 0);
+	border: 0;
+}
+.prof_BOTT:hover {
+	color: blue;
+	text-decoration-line:underline;
+}
+.BORDEREDbox {
+	border: solid rgb(0, 0, 0) 1px;
+	border-radius: 4px;
+	background: white;
+	outline: 3px solid rgba(128, 128, 128, 0.267);
+	box-shadow: 2px solid grey;
+	height: 150px;
+  	width: 150px;
+}
+table td:last-child {
+	padding-left: 10%;
+}
+table td:first-child {
+	padding-left: 0%;
+}
+
+@media only screen and (max-width: 600px) {
+	table td {
+		display: block;
+    	clear: both;
+		padding-left: 0px;
+	}
+	table.title td:last-child {
+		text-align: left;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	table td:last-child {
+		padding-left: 0%;
+	}
+}
+
+
+
+
+
+
+
+/* --------- NASCOSTO Modifica Profilo -----------*/
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+.popup {
+	margin: 70px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	width: 30%;
+	position: relative;
+}
+.popup .clkBOX{
+	max-width: 80px;
+	width: 40%;
+	padding: 2px 5%;
+	width: 40%;
+}
+.popup h2 {
+	margin-top: 0;
+	padding-right: 15%;
+	color: #333;
+	font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	transition: all 100ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+  .popup .close:hover {
+	color: orange;
+}
+@media only screen and (max-width: 550px) {
+    .popup table {
+        margin-left: 0%;
+    }
+    .popup .inBOX{
+        width: 80%;
+    }
+    .popup h2 {
+        font-size:medium;
+    }
+}
+
+.popup2{
+	width: 350px;
+}
+@media only screen and (min-width: 550px){
+	.popup2{
+		width: 450px;
+	}
+}
+
+#btnSubmit2{
+	cursor:default;
+	margin-top: 10px;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+}
+#btnSubmit2:enabled{
+	background-color: rgba(0, 224, 0, 0.746);
+	color: black;
+	cursor:pointer;
+}
+#btnSubmit2:enabled:hover{
+	background-color: rgba(0, 163, 0, 0.746);
+}
+  
+input[type="file"] {
+	z-index: -1;
+	top: 10px;
+	left: 8px;
+	font-size: 17px;
+	border-color: 1px solid grey;
+	background-color: rgba(200, 200, 200, 0.178);
+	outline: 3px solid rgba(128, 128, 128, 0.082);
+	border-radius: 5px;
+
+}
+  

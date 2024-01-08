@@ -1,0 +1,252 @@
+body {
+	font-size: 12pt;
+	line-height: 1.8em;
+	font-family: Arial, sans-serif;
+	background-image: url("../immagini/animated-pattern.gif");
+	background-size: auto 100%;
+	background-attachment:fixed;
+	/*PREV COLOR = rgb(182, 30, 30);*/
+	color: #ffffffad;
+}
+
+td {
+	padding-right:0;
+    padding-left: 15;
+}
+td:last-child {
+	border-right:#04AA6D;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(255, 255, 255, 0.7);
+	top: 0;
+	width: 100%;
+	left: 0;
+	position: fixed
+}
+
+table {
+	text-align: left;
+	color: rgba(7, 7, 7, 0.644);
+	padding: 2%;  
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-collapse: collapse;
+	border: rgba(0, 0, 0, 0) 0px;
+	border-radius: 6px;
+	border: 1;
+	background: rgba(0, 0, 0, 0);
+}
+
+.inBOX {
+	border-radius: 3px;
+	border: solid rgba(0, 0, 0, 0.116) 2.3px;
+	background: rgba(255, 255, 255, 0.794);
+	resize: horizontal; 
+	width: 100%; 
+	min-width:30px;
+	resize: none;
+}
+
+.clkBOX {
+	border-radius: 5px;
+	border: solid rgba(0, 0, 0, 0.116) 3px;
+	background-color:#04AA6D;
+	margin: 0;
+    padding: 2px 22px;
+	font-size: 11pt;
+}
+.clkBOX:hover{
+	background-color:#03ffa3;
+	cursor: pointer;
+}
+
+.clkBOX_White {
+	border-radius: 5px;
+	border: solid rgba(0, 0, 0, 0.116) 3px;
+	background-color:#ffffff;
+	padding: 2px 22px;
+	font-size: 11pt;
+	text-decoration-line:none;
+	color:grey;
+	padding: 2px 5%;
+}
+.clkBOX_White:hover{
+	background-color:#cccccc;
+	cursor: pointer;
+}
+
+.DIVbox {
+    text-align: center;
+    height:min-content;
+    position:static;
+    color: black;
+    outline: 5px solid rgba(253, 253, 253, 0.432);
+    border: 5px solid rgba(253, 253, 253, 0.397);
+    border-radius: 1%;
+    background-color: rgba(255, 255, 255, 0.808);
+    font-size:medium;
+    line-height: fit-content;
+}
+
+/* MOSTRA IL CONTENUTO SOLO QUANDO SOPRA UNA RISOLUZIONE */
+@media only screen and (min-width: 851px) {
+	#big800 {
+		display:contents;
+		visibility: visible;
+  	}
+	#small800 {
+		display: none;
+		visibility: hidden;
+	}
+}
+  
+@media only screen and (max-width: 850px) {
+	#big800 {
+		visibility: hidden;
+		display: none;
+	}
+	#small800 {
+		visibility: visible;
+		display: contents;
+	}
+}
+
+@media only screen and (min-width: 581px) {
+	#big580 {
+		display:contents;
+		visibility: visible;
+  	}
+	#small580 {
+		display: none;
+		visibility: hidden;
+	}
+}
+  
+@media only screen and (max-width: 610px) {
+	#big580 {
+		visibility: hidden;
+		display: none;
+	}
+	#small580 {
+		visibility: visible;
+		display: contents;
+	}
+}
+
+@media only screen and (min-width: 1001px) {
+	#big1000 {
+		display:contents;
+		visibility: visible;
+  	}
+	#small1000 {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	#big1000 {
+		visibility: hidden;
+		display: none;
+	}
+	#small1000 {
+		visibility: visible;
+		display: contents;
+	}
+}
+
+/*------------------------------------------*/
+/*--------------- -NAVbar.php --------------*/
+/*------------------------------------------*/
+
+ul {
+	width: auto !important;
+	right: 0;
+}
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.726);
+	text-align: center;
+	font-size: large;
+	padding: 14px 16px;
+	text-decoration: none;	
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: rgba(0, 231, 247, 0.411);
+	filter:blur(0.1px);
+	outline: 4px solid rgba(0, 255, 234, 0.089);
+	outline-style:solid;
+	color: rgba(0, 0, 0, 0.63);
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: rgba(133, 246, 250, 0.692);
+	outline: 4px solid rgba(64, 252, 236, 0.089);
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.active {
+	background-color: #00ccff;
+}
+
+li a:active, .dropdown-content a:active, .active:active{
+	background-color:rgb(0, 247, 255);
+}
+
+li.dropdown:active{ 
+	background-color:rgba(0, 247, 255, 0.39);
+}
+
+.footer {
+	clear: both; 
+	position: relative; 
+	height: 80px; 
+	margin-top: -80px; 
+	width: 103%; 
+	margin-left: -3%; 
+	margin-bottom: -1%; 
+	text-align: center; 
+	padding: 3px; 
+	background-color: rgba(37, 37, 37, 0.801); 
+	color: rgba(255, 255, 255, 0.856);
+}

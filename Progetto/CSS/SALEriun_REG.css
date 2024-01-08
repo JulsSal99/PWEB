@@ -1,0 +1,9 @@
+.tendina {
+    position: static;
+    visibility: hidden;
+    opacity: 0;
+}
+.tendina:target {
+    visibility: visible;
+    opacity: 1;
+}
